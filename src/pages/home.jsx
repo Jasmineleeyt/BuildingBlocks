@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
             <button>Sign-in</button>
-            <button>Discussion</button>
+            <button>Discussions</button>
         </div>
     )
 
