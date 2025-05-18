@@ -10,8 +10,8 @@ const Home = () => {
 
     return (
         <div>
-            <h1>Sign-in</h1>
-            <h1>Discussion</h1>
+            <button>Sign-in</button>
+            <button>Discussion</button>
         </div>
     )
 
