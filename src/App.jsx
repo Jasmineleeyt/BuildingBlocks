@@ -4,8 +4,8 @@ import reactLogo from './assets/react.svg'
 import { Routes, Route, Outlet } from 'react-router-dom';
 import viteLogo from '/vite.svg'
 import './App.css'
-import Home from './pages/home';
-import LoginPage from './pages/login'
+import Home from './pages/Home';
+import LoginPage from './pages/LoginPage'
 
 // const httpLink = createHttpLink({
 //  uri: '/graphql',
@@ -14,7 +14,7 @@ import LoginPage from './pages/login'
 function App() {
   return (
     <div>
-      <LoginPage />
+      <Home />
     </div>
   )
 }
