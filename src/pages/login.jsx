@@ -20,6 +20,17 @@ const LoginPage = () => {
         e.preventDefault();
     };
 
+    return (
+        <form onSubmit={handleFormSubmit}>
+            <h2>Login</h2>
+                <input type="text" name="username" placeholder="Username" value={loginData.username} onChange={handleLoginInput}/>
+                <br />
+                <input type="password" name="password" placeholder="Password" value={loginData.password} onChange={handleLoginInput}/>
+                <br />
+                <button type="submit"> &rarr; </button>
+        </form>
+        )
+
 
 };
 
