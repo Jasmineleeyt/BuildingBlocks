@@ -14,6 +14,12 @@ const LoginPage = () => {
             [e.target.name]: e.target.value,
         });
     };
+    
+    //Handle form submit. TO DO: will need to update this part once auth is added
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+    };
+
 
 };
 
