@@ -5,6 +5,7 @@ import { Routes, Route, Outlet } from 'react-router-dom';
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/home';
+import LoginPage from './pages/login'
 
 // const httpLink = createHttpLink({
 //  uri: '/graphql',
@@ -12,7 +13,9 @@ import Home from './pages/home';
 
 function App() {
   return (
-    <Home />
+    <div>
+      <LoginPage />
+    </div>
   )
 }
 
