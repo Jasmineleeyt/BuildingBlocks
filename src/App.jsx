@@ -6,6 +6,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/Home';
 import LoginPage from './pages/LoginPage'
+import SignupPage from './pages/SignUpPage';
 
 // const httpLink = createHttpLink({
 //  uri: '/graphql',
