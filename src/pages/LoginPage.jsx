@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
  
 const LoginPage = () => {
     //Create variables for the user input fields and initialize them with empty strings.
@@ -19,7 +20,8 @@ const LoginPage = () => {
     const handleFormSubmit = (e) => {
         e.preventDefault();
     };
-
+    
+    // To DO: functionality - POST method
     return (
         <form onSubmit={handleFormSubmit}>
             <h2>Login</h2>
@@ -27,6 +29,7 @@ const LoginPage = () => {
                 <br />
                 <input type="password" name="password" placeholder="Password" value={loginData.password} onChange={handleLoginInput}/>
                 <br />
+                <h3>Don't have an account yet? <Link to="signup">Sign Up</Link></h3>
                 <button type="submit"> &rarr; </button>
         </form>
         )
