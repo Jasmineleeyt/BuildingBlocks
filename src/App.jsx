@@ -7,6 +7,8 @@ import './App.css'
 import Home from './pages/Home';
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignUpPage';
+import DiscussionPage from './pages/DiscussionPage';
+
 
 // const httpLink = createHttpLink({
 //  uri: '/graphql',
