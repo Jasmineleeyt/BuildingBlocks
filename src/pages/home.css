@@ -5,3 +5,18 @@
 .home-block-img:hover {
     transform: scale(1.2);
 }
+
+/* .about-us-section {
+    margin-top: 200px
+} */
+
+.about-us-text {
+    background-color: #FEF6c9;
+    color: #878E88;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.about-us-header {
+    color: #FFA69E
+}
