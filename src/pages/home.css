@@ -1,0 +1,7 @@
+.home-block-img {
+    height: 200px;
+}
+
+.home-block-img:hover {
+    transform: scale(1.2);
+}

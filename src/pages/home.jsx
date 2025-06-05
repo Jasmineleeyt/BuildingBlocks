@@ -11,8 +11,8 @@ const Home = () => {
 
     return (
         <div>
-            <Link to="login"><button>Sign-in</button></Link>
-            <button>Discussions</button>
+            <img className="home-block-img" src="https://res.cloudinary.com/dsdsdv6zj/image/upload/v1749083300/g1awpvi4eqja6azkwmbb.png"></img>
+            <img className="home-block-img" src="https://res.cloudinary.com/dsdsdv6zj/image/upload/v1749083648/xanwr1b9pj4r0qzdq6rs.png"></img>
         </div>
     )
 
