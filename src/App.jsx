@@ -15,7 +15,7 @@ import SignupPage from './pages/SignUpPage';
 function App() {
   return (
     <div>
-      <Home />
+      <Outlet />
     </div>
   )
 }

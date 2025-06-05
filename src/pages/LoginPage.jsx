@@ -29,7 +29,7 @@ const LoginPage = () => {
                 <br />
                 <input type="password" name="password" placeholder="Password" value={loginData.password} onChange={handleLoginInput}/>
                 <br />
-                <h3>Don't have an account yet? <Link to="signup">Sign Up</Link></h3>
+                <h3>Don't have an account yet? <Link to="/signup">Sign Up</Link></h3>
                 <button type="submit"> &rarr; </button>
         </form>
         )
