@@ -6,6 +6,7 @@ import Login from './pages/LoginPage.jsx';
 import Signup from './pages/SignUpPage.jsx';
 import App from './App.jsx';
 import './index.css';
+import Discussions from './pages/DiscussionPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
         path: 'signup', // Route to the Sign Up page
         element: <Signup />,
       },
+      {
+        path: 'discussions', // Route to the Discussion page
+        element: <Discussions />
+      }
     ]
   }
 ])
