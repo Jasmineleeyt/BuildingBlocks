@@ -17,7 +17,7 @@ import DiscussionPage from './pages/DiscussionPage';
 function App() {
   return (
     <div>
-      <DiscussionPage />
+      <Outlet />
     </div>
   )
 }
