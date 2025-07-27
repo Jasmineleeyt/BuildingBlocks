@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignUpPage';
 import DiscussionPage from './pages/DiscussionPage';
-
+import Header from './components/Header/Header';
 
 // const httpLink = createHttpLink({
 //  uri: '/graphql',
@@ -17,6 +17,7 @@ import DiscussionPage from './pages/DiscussionPage';
 function App() {
   return (
     <div>
+      <Header />
       <Outlet />
     </div>
   )
