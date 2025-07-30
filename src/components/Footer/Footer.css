@@ -1,0 +1,10 @@
+footer {
+    color: #878E88 !important;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: inherit;
+    font-weight: inherit;
+}
