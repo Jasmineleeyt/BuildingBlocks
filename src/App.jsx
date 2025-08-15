@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignUpPage';
 import DiscussionPage from './pages/DiscussionPage';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 // const httpLink = createHttpLink({
 //  uri: '/graphql',
@@ -19,6 +20,7 @@ function App() {
     <div>
       <Header />
       <Outlet />
+      <Footer />
     </div>
   )
 }
